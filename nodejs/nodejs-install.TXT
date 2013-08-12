@@ -1,0 +1,27 @@
+source <(curl -s https://raw.github.com/qrpike/CentOS-6-Quick-Install-Scripts/master/installNodeJS.sh --insecure)
+
+
+https://github.com/nodejitsu/forever-monitor
+
+npm install forever-monitor -g
+
+use -g for global install 
+
+
+ npm install vows -g
+ 
+ http://vowsjs.org/  - testing BDD 
+ 
+ 
+ Cheatsheet: http://blog.nodejitsu.com/npm-cheatsheet
+ 
+ 
+Base64 decoding 
+
+https://github.com/kvz/phpjs/blob/master/functions/url/base64_decode.js 
+
+Nginx:-
+
+http://www.cyberciti.biz/faq/install-nginx-centos-rhel-6-server-rpm-using-yum-command/
+ 
+ 
