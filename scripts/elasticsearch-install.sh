@@ -25,6 +25,7 @@ ${INSTALL_DIR}/elasticsearch/bin/service/elasticsearch install
 
 # start ES service
 /etc/init.d/elasticsearch start
+chkconfig elasticsearch on
 
 # install plugins
 ${INSTALL_DIR}/elasticsearch/bin/plugin --install mobz/elasticsearch-head
